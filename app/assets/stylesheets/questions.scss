@@ -5,6 +5,11 @@ $gray: #F4F4F4;
 
  body {
    background: $gray; // Using this variable
+   font-size: 23px;
+ }
+
+ form {
+   margin: 30px;
  }
 
  .banner {
@@ -21,6 +26,10 @@ $gray: #F4F4F4;
     }
   }
 
-  p {
-      align-items: center;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+ 
